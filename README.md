@@ -12,8 +12,7 @@
 - [Project Structure](#project-structure)
 - [Database Configuration](#database-configuration)
 - [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
+
 
 ## Project Overview
 
@@ -84,19 +83,20 @@ SignSpeak utilizes a combination of Django for the backend and machine learning 
 
 ```
 SignSpeak/
-├── SignSpeak/               # Django project configuration
-├── signapp/                 # Main application containing views, models, etc.
-├── templates/               # HTML templates
+├── Kill/                    # Django project configuration
+├── SignKill/                # Main application containing views, models, etc.
+├── templates/               # HTML template
 ├── static/                  # Static files (CSS, JS, images)
 ├── media/                   # Uploaded media files
-├── requirements.txt         # Python dependencies
+├── requirements.txt         # Python dependencies of enitre virtual env , please checkout 
+                               before installation 
 ├── manage.py                # Django management script
 └── README.md                # Project documentation
 ```
 
 ## Database Configuration
 
-The project uses SQLite by default. To configure a different database:
+The project uses SQLite by default.no need of databse at present but you can configure a different database as required:
 
 1. Open `SignSpeak/settings.py`.
 2. Modify the `DATABASES` section with your database credentials.
@@ -130,11 +130,4 @@ Contributions are welcome! Please follow these steps:
 4. Push to the branch: `git push origin feature/YourFeature`
 5. Open a pull request.
 
-## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Acknowledgements
-
-- Thanks to all contributors and the open-source community for their invaluable support.
-- Special thanks to the developers of the libraries and frameworks utilized in this project.
